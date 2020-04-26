@@ -62,8 +62,6 @@ def drawPlane(model, X_test, y_test, title, R2):
   
   plt.show()
   
-
-
 #
 # INFO: Let's get started!
 
@@ -105,7 +103,6 @@ X.Private = X.Private.map({'Yes':1, 'No':0})
 
 
 
-
 #
 # INFO: The first relationship we're interested in is the 
 # number of accepted students, as a function of the amount
@@ -128,8 +125,6 @@ X.Private = X.Private.map({'Yes':1, 'No':0})
 
 # INFO: We'll take it from here, buddy:
 drawLine(model, X_test, y_test, "Accept(Room&Board)", score)
-
-
 
 
 # 
